@@ -7,9 +7,9 @@
   - 
 
 # Game
-  - current_player
   - keeps track of game turns
   - determines current player
+    - current_player
   - contains the main game loop
     - logic for right or wrong
   - takes user input for the answer from each player and checks if it is correct
