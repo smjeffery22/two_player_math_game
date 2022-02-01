@@ -1,3 +1,4 @@
-class Main
+require './game.rb'
 
-end
+game = Game.new
+game.play
