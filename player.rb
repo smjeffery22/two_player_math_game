@@ -6,7 +6,6 @@ class Player
   def initialize(name)
     @name = name
     @life = LIFE_TOTAL
-    puts self.display_score
   end
 
   def display_score
@@ -21,8 +20,3 @@ class Player
     @life == 0
   end
 end
-
-# player1 = Player.new('Player 1')
-
-# p player1.life
-# p player1.update_life('false')
